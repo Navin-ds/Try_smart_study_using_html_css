@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.itemsitems {
+  color: black;
+}
+
+.btn {
+  background-color: transparent;
+  border-radius: 6px;
+  border: solid 2px;
+  width: 75px;
+  height: 37px;
+}
+
+.select {
+  border: none;
+}
+
+.food-munch-logo {
+  width: 120px;
+  height: 80px;
+  flex-wrap: wrap;
+}
+
+.heading-card {
+  background-color: #e3f2fd;
+  height: 110px;
+}
+
+.heading {
+  padding-top: 30px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.dispaly {
+  display: flex;
+}
+
+.big-image {
+  height: 220px;
+  width: 330px;
+  padding-top: 120px;
+  padding-left: 30px;
+}
+
+.first-card {
+  border: solid 3px #e3f2fd;
+  height: 190px;
+  width: 354px;
+  font-size: 30px;
+  padding-top: 70px;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.mcqs-test-container {
+  margin: 10px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.image1 {
+  height: 220px;
+  width: 440px;
+}
+
+.image {
+  height: 160px;
+  width: 220px;
+  display: flex;
+  margin-left: 120px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.heading {
+  color: blue;
+  font-size: 38px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+
+.head {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+
+.paragraph {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 500;
+  font-family: Roboto;
+}
+
+.notess {
+  font-weight: bold;
+  color: blue;
+  font-size: 18px;
+  font-family: Roboto;
+}
+
+.second-card-container {
+  font-size: 20px;
+  color: black;
+  font-family: Roboto;
+  font-weight: 700;
+  text-align: center;
+  margin-left: 60px;
+  padding: 9px;
+}
+
+.card-container {
+  padding: 15px;
+  font-size: 20px;
+  color: black;
+  font-family: Roboto;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 60px;
+}
+
+.main-container {
+  flex-wrap: wrap;
+  display: flex;
+  margin: 10px;
+}
+
+.second-card {
+  border: solid 3px #e3f2fd;
+  height: 190px;
+  width: 354px;
+  font-size: 30px;
+  padding-top: 70px;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.otp-btn {
+  width: 200px;
+  margin-top: 5px;
+  text-align: center;
+  height: 27px;
+}
+
+.otp-btn-f {
+  width: 200px;
+  margin-top: 10px;
+  text-align: center;
+  height: 27px;
+  margin-bottom: 10px;
+  border: 0px;
+}
+
+.number {
+  font-size: 13px;
+}
+
+.number1 {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.padding {
+  padding-left: 15px;
+}
+
+.login {
+  text-decoration: underline;
+  font-size: 11px;
+}
+
+.input {
+  width: 200px;
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+.navbar {
+  display: flex;
+  font-size: 28px;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.path {
+  font-size: 40px;
+  padding-left: 20px;
+}
+
+.otp-message {
+  font-size: 10px;
+}
+
+.t {
+  font-size: 10px;
+}

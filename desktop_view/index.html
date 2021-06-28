@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div id="first">
+      <nav class="navbar navbar-expand-sm" style="background-color: #ffffff">
+        <!-- Navbar content -->
+        <img
+          src="https://images.yourstory.com/cs/images/companies/Goseeko-1620050071674-1620373886067.png"
+          class="food-munch-logo"
+        />
+        <div class="navbar-nav ml-auto">
+          <div class="nav-item active">
+            <a class="nav-link active items" href="#">
+              Engineering
+              <select class="select"></select>
+            </a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link active items" href="#"
+              >Course material
+              <select class="select"></select
+            ></a>
+          </div>
+          <div class="nav-item" active>
+            <a class="nav-link active items" href="#"
+              >Upskill
+              <select class="select"></select
+            ></a>
+          </div>
+          <div class="nav-item" active>
+            <a class="nav-link active items" href="#"
+              >Books
+              <select class="select"></select
+            ></a>
+          </div>
+          <div class="nav-item" active>
+            <a class="nav-link active items" href="#"
+              >Universities
+              <select class="select"></select
+            ></a>
+          </div>
+          <li class="nav-item" active>
+            <a class="nav-link active items" href="#"
+              ><button class="btn">Log In</button></a
+            >
+          </li>
+        </div>
+      </nav>
+      <div class="heading-card">
+        <p class="path">Home/Create Your Account</p>
+        <h1 class="heading">Create Your Account</h1>
+      </div>
+      <div class="dispaly">
+        <div>
+          <img
+            src="https://media.gettyimages.com/videos/businessman-work-office-animation-matte-finish-loopable-alpha-channel-video-id1221065938?s=640x640"
+            class="big-image"
+          />
+        </div>
+        <div class="first-card d-flex flex-column justify-content-end">
+          <div class="padding">
+            <label for="numb" class="number1">Phone number</label>
+            <input type="number" id="numb" class="input" />
+
+            <button class="btn-primary otp-btn-f" onclick="display('second')">
+              <a href="#sectionGetOtp">Get OTP</a>
+            </button>
+            <p class="number">
+              Already a user* <span class="login number">Login</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="second">
+      <div class="heading-card">
+        <p class="path">Home/Create Your Account</p>
+        <h1 class="heading">Create Your Account</h1>
+      </div>
+      <div class="d-flex flex-row dispaly">
+        <div>
+          <img
+            src="https://media.gettyimages.com/videos/businessman-work-office-animation-matte-finish-loopable-alpha-channel-video-id1221065938?s=640x640"
+            class="big-image"
+          />
+        </div>
+        <div class="second-card d-flex flex-column justify-content-end">
+          <div class="padding">
+            <label for="numb" class="number">Phone number</label>
+            <input type="text" id="numb" class="input" />
+
+            <label for="otp" class="number">Enter OTP</label>
+            <input type="text" id="otp" class="input" />
+
+            <p class="otp-message">You can resend OTP after 18 seconds</p>
+            <button class="btn-primary otp-btn">
+              <a href="#SectionFinal">Submit</a>
+            </button>
+            <p class="number">
+              Already a user* <span class="login number">Login</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="third">
+      <nav class="navbar navbar-expand-sm" style="background-color: #ffffff">
+        <!-- Navbar content -->
+        <img
+          src="https://images.yourstory.com/cs/images/companies/Goseeko-1620050071674-1620373886067.png"
+          class="food-munch-logo"
+        />
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link active items" href="#">
+              Engineering
+              <select class="select"></select>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active items" href="#"
+              >Course material
+              <select class="select"></select
+            ></a>
+          </li>
+          <li class="nav-item" active>
+            <a class="nav-link active items" href="#"
+              >Upskill
+              <select class="select"></select
+            ></a>
+          </li>
+          <li class="nav-item" active>
+            <a class="nav-link active items" href="#"
+              >Books
+              <select class="select"></select
+            ></a>
+          </li>
+          <li class="nav-item" active>
+            <a class="nav-link active items" href="#"
+              >Universities
+              <select class="select"></select
+            ></a>
+          </li>
+          <li class="nav-item" active>
+            <a class="nav-link active items" href="#"
+              ><button class="btn">Log In</button></a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="heading-card">
+        <p class="path">Home/Create Your Account</p>
+        <h1 class="heading">Create Your Account</h1>
+      </div>
+      <div class="d-flex flex-row dispaly">
+        <div>
+          <img
+            src="https://media.gettyimages.com/videos/businessman-work-office-animation-matte-finish-loopable-alpha-channel-video-id1221065938?s=640x640"
+            class="big-image"
+          />
+        </div>
+        <div class="first-card d-flex flex-column justify-content-end">
+          <label for="name" class="t">Name</label>
+          <input type="number" id="name" class="input" />
+
+          <label for="numb" class="t">Phone Number</label>
+          <input type="number" id="numb" class="input" />
+
+          <label for="pass" class="t">Password</label>
+          <input type="number" id="pass" class="input" />
+
+          <button class="btn-primary otp-btn" onclick="display('second')">
+            Register
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="sectionGetOtp">
+      <div class="main-container">
+        <div class="d-flex flex-column justify-content-center">
+          <div>
+            <img
+              src="https://images.yourstory.com/cs/images/companies/Goseeko-1620050071674-1620373886067.png"
+              class="image"
+            />
+          </div>
+          <div class="card-container">
+            <h1>Hi Navneet Shally,</h1>
+            <p>Your OTP is 2465</p>
+            <hr />
+          </div>
+          <div class="second-card-container">
+            <p>Enter This OTP to Complete your Login</p>
+            <p>
+              Thanks for helping us,keep your account secure.Enjoy Learning.
+            </p>
+            <p>The GoSeeko Team..</p>
+          </div>
+          <a href="#second">back</a>
+        </div>
+      </div>
+    </div>
+    <div id="SectionFinal">
+      <div class="mcqs-test-container">
+        <img
+          src="data:image/jpeg;base64,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
+          "
+          class="image1"
+        />
+        <hr />
+        <h1 class="heading">WELCOME TO GoSeeko</h1>
+        <hr />
+        <div>
+          <h1 class="head">We Are thrilled to have you on Board..!</h1>
+          <p class="paragraph">You know have access to.</p>
+          <ul class="paragraph">
+            <li>
+              <span class="notess">Notes~</span>Highlight Important points and
+              make your study list
+            </li>
+            <li>
+              <span class="notess">Mcqs~</span>Test your self for three level of
+              difficulties
+            </li>
+            <li>
+              <span class="notess">Solved Question PApers~</span>THe perfect
+              resource for ourexam revision
+            </li>
+            <li>
+              <span class="notess">Video Lectures~</span> Easily learn difficult
+              conscepts through our letures
+            </li>
+          </ul>
+          <p class="paragraph">
+            What's more ? you get this amazing features for all your subjects
+            ,anytime , anywhere
+          </p>
+          <h1 class="head">Thanks For Your Joining.</h1>
+          <div>
+            <img
+              src="https://images.yourstory.com/cs/images/companies/Goseeko-1620050071674-1620373886067.png"
+              class="image"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"
+    ></script>
+  </body>
+</html>
